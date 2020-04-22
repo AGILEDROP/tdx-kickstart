@@ -1,4 +1,4 @@
-# Composer based Thunder installation
+# TDX kickstart
 
 This project template should provide a kickstart for building brochure websites.
 
