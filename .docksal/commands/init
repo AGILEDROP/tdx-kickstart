@@ -5,4 +5,4 @@ rm -f web/sites/default/settings.local.php
 cp web/sites/default/docksal.settings.local.php web/sites/default/settings.local.php
 fin project rm -f
 fin project start
-fin drush site:install -y --existing-config --account-pass=admin --site-name="My TDX site"
+fin drush site:install -y --existing-config --account-pass=admin
