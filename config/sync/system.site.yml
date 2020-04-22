@@ -1,0 +1,14 @@
+uuid: c95ac9c9-cca7-4453-b0fc-8e0534b578ba
+name: 'TDX Project'
+mail: admin@example.com
+slogan: 'Design ambitious websites'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: hv8BuZhPk6zWfOF5ld1Rq04Bnawm2QXZ6pQ0pM1EJ0Y

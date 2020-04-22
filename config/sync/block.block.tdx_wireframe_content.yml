@@ -1,0 +1,22 @@
+uuid: 8e98a111-ed4c-4e04-bc88-f48135960cdf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tdx_wireframe
+_core:
+  default_config_hash: ubXhp1MnSDeRUDTkN9j_HrUHTBDBGan9qa6hhG8cRPE
+id: tdx_wireframe_content
+theme: tdx_wireframe
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

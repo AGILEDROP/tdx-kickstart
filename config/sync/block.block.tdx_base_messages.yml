@@ -1,0 +1,22 @@
+uuid: e203b81d-5674-449d-88ce-36eee2ba85ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tdx_base
+_core:
+  default_config_hash: ZReKkkwhBcFiMnlkwloTD1WLK4rAmX62hMm_n91-Wbo
+id: tdx_base_messages
+theme: tdx_base
+region: status
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

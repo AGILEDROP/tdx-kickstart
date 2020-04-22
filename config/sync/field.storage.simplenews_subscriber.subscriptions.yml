@@ -1,0 +1,21 @@
+uuid: 6fe64955-8286-40a9-852d-62200a3b9fce
+langcode: und
+status: true
+dependencies:
+  module:
+    - simplenews
+_core:
+  default_config_hash: xlSVogzrFkL_PkpilFFthdnPjkMxpyJR7RxJ_mcCyYM
+id: simplenews_subscriber.subscriptions
+field_name: subscriptions
+entity_type: simplenews_subscriber
+type: simplenews_subscription
+settings:
+  target_type: simplenews_newsletter
+module: simplenews
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: c6908e3d-c8c0-4485-b4cc-42036f8dd409
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tdx_wireframe
+_core:
+  default_config_hash: r3ZniPa5WVcH2LKYIjqWbOMU-_u5xOg8xitl80Sx9kE
+id: tdx_wireframe_powered
+theme: tdx_wireframe
+region: copyright
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
